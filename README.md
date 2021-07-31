@@ -4,6 +4,13 @@
 2. Extract keywords from the collected data.
 3. Visualize the analyzed kewords via wordcloud.
 
+### Notebooks Order [노트북 순서]
+
+1. [URL Collection](/url_collection.ipynb)
+2. [Data(Text) Collection](/data_collection.ipynb)
+3. [Keywords Extraction](/extraction.ipynb)
+4. [Word Cloud Visualization](/visualization.ipynb)
+
 ### ChromeDriver Setup [크롬 드라이버 셋업]
 
 - Download chromedriver from:
@@ -16,3 +23,19 @@
 ### Text Analytics [텍스트 분석]
 
 ### Data Visualization [데이터 가시화]
+
+Make sure to move a new font .ttf file (ex. [NanumBarunGothic.ttf](http://hangeul.naver.com/webfont/NanumGothic/NanumGothic.ttf)) to the paths listed below
+
+Mac OS : /{anaconda_path}/envs/{env_name}/lib/python3.8/site-packages/pytagcloud/fonts
+
+Windosw OS : {anaconda_path}\envs{env_name}\Lib\site-packages\pytagcloud\fonts
+
+Append the code block below to the font.json located at the paths listed above
+
+```json
+,{
+"name": "NanumGothic",
+"ttf": "NanumGothic.ttf",
+"web": "http://fonts.googleapis.com/css?family=Nanum+Gothic"
+}
+```
