@@ -1,5 +1,7 @@
 # Text-Mining-with-ChromeDriver [크롬 드라이버를 이용한 텍스트 마이닝]
 
+This is not my original work, I have expanded its usage (Copyright below). [원작자 및 Copyright에 대한 언급은 아래 있습니다.]
+
 1. Using a web crawler, collect data about Wiki's recent changes. https://namu.wiki/RecentChanges
 2. Extract keywords from the collected data.
 3. Visualize the analyzed kewords via wordcloud.
@@ -39,3 +41,7 @@ Append the code block below to the font.json located at the paths listed above
 "web": "http://fonts.googleapis.com/css?family=Nanum+Gothic"
 }
 ```
+
+Copyright (c) 2019 [윤기태]
+
+https://github.com/yoonkt200/python-data-analysis
